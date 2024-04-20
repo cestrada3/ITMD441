@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main-content">
+        <p class="intro">ITMD 441 - Lab 3 CE</p>
+        <h1 class="title" id="typing-effect"></h1>
+        <form action="#" method="post">
+            <div class="secondary-content">
+                <div class="form-group">
+                    <label for="bill">Bill Total:</label>
+                    <input type="text" name="bill" min="0" id="bill" oninput="validateNumber()" required>
+                    <small id="error-message" style="color: rgb(0, 174, 255); display: none;">Please enter a valid number.</small>
+                </div>
+                <div class="form-group">
+                    <label for="tipslider">Tip:</label>
+                    <input type="range" name="tipslider" value="15" min="0" max="100" id="tipslider" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipprecent">Tip Percentage:</label>
+                    <input type="number" name="tipprecent" class="ce" id="tipprecent" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="tipamount">Tip Amount:</label>
+                    <input type="number" name="tipamount" class="c_e" id="tipamount" placeholder="chrise" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="total">Total Bill with Tip:</label>
+                    <input type="number" name="total" id="total" disabled>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
