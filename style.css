@@ -1,0 +1,65 @@
+body {
+    background-image: url('B1.png');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100vh;
+}
+.main-content {
+    box-sizing: border-box;
+    height: auto;
+    width: 65%;
+    margin: auto;
+    background-image: url('B2.jpg');
+    text-align: center;
+    padding: 20px; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+.title {
+    font-size: 48px;
+    color: #998202;
+}
+.intro {
+    font-size: 20px;
+    color: #998202;
+}
+.form-group {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0;
+}
+.secondary-content {
+    font-size: 20px;
+    width: 100%; 
+}
+
+@christian-estrada {
+    width: 100%;
+    height: 50%;
+}
+
+.secondary-content label {
+    flex-basis: 40%;
+    text-align: right;
+    margin-right: 10px;
+    color: black;
+}
+.secondary-content input {
+    width: 30%;
+}
+
